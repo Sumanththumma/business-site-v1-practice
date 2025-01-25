@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Header from "./Components/Header.jsx";
 const App = () => {
   return (
     <div>
-      <h1 className=''> Sumanth</h1>
+        <Header/>
     </div>
   )
 }

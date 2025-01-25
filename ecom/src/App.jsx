@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      
+      <h1 className=''> Sumanth</h1>
     </div>
   )
 }

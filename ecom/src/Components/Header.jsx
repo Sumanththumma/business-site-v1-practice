@@ -1,17 +1,21 @@
-
+import { RiArrowDropDownFill, RiMenuFill } from "@remixicon/react";
 const Header = () => {
+    const graycol = "#dfe1e6" // for the nav colors
+    const drop = () =>{
+
+    }
     return(
-        <div className="bg-black text-white flex justify-between px-5 py-2 pr-10 items-center h-16">
-            <div className="text-2xl font-semibold flex gap-10 items-center" id="ham-and-title">
-                <div className="hover:bg-white hover:text-black active:bg-white active:text-black px-2 py-0 rounded-md ">=</div>
-                <h1>Zudio</h1>
+        <div className="bg-black text-white w-full px-5 py-0 pr-0 flex items-center justify-between">
+            <div id="one">
+                <div id="hamburger-menu"><RiMenuFill size={20} color={graycol}/></div> 
             </div>
-            <div className="text-xl font-semibold" id="navlist">
-                <ul className="flex gap-3.5 items-center">
-                    <a href="#"><li className="px-2 py-1 hover:text-black hover:bg-white rounded-md duration-300">Explore</li></a>
-                    <a href="#"><li className="px-2 py-1 hover:text-black hover:bg-white rounded-md duration-300">Visit</li></a>
-                    <a href="#"><li className="px-2 py-1 hover:text-black hover:bg-white rounded-md duration-300">Contact</li></a>
-                </ul>
+            <div id="logo">
+                <h1 className="text-2xl font-light tracking-wide">Capsul</h1>
+            </div>
+            <div id="three">
+                <div id="dropdown" onClick={()=>{
+                    drop()
+                }}><RiArrowDropDownFill size={49} color={graycol} /></div>
             </div>
         </div>
     );

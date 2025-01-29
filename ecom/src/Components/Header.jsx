@@ -1,4 +1,4 @@
-import { RiArrowDropDownFill, RiMenuFill } from "@remixicon/react";
+import { RiArrowDropDownFill, RiMenuFill, RiShoppingCart2Fill } from "@remixicon/react";
 const Header = () => {
     const graycol = "#dfe1e6" // for the nav colors
     const drop = () =>{
@@ -12,10 +12,13 @@ const Header = () => {
             <div id="logo">
                 <h1 className="text-2xl font-light tracking-wide">Capsul</h1>
             </div>
-            <div id="three">
+            <div id="three" className="flex gap-2 items-center">
                 <div id="dropdown" onClick={()=>{
                     drop()
                 }}><RiArrowDropDownFill size={49} color={graycol} /></div>
+                <div id="cart" className="pr-2.5">
+                    <RiShoppingCart2Fill size={20} />
+                </div>
             </div>
         </div>
     );

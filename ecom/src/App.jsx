@@ -3,7 +3,7 @@ import Header from "./Components/Header.jsx";
 import Hero from "./Components/Hero.jsx";
 const App = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center'>
         <Header />
         <Hero />
     </div>

@@ -11,9 +11,9 @@ const ProductCard = (props) => {
         <div className='flex flex-col gap-2 px-1'>
             <h1 className='font-medium text-md'>{props.title}</h1>
             <p className='text-[12px] font-extralight'>{props.desc}</p>
-            <div className='absolute bottom-2 w-[90%] flex justify-between'>
+            <div className='absolute bottom-2 w-[90%] flex justify-between items-center'>
                 <h1>₹ {props.price}.00</h1>
-                <button onClick={addtoCartHandler}><RiAddCircleFill/></button>
+                <button onClick={addtoCartHandler}><RiAddCircleFill size={32}/></button>
             </div>
         </div>
     </div>

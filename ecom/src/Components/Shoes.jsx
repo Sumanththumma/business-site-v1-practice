@@ -25,65 +25,28 @@ const Hero = () => {
                 desc="Nike" 
                 price="8495"/>
                 <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
+                proimage="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f3c36ef6-f3c7-415a-acd5-85aa20442404/AIR+MAX+DN+SE.png" 
+                title="Nike Air Max Dn SE" 
+                desc="Nike" 
+                price="15995"/>
                 <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
+                proimage="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5a36c02-49ba-4a62-8e10-736a4344b93b/NIKE+AIR+MORE+UPTEMPO+SLIDE.png" 
+                title="Nike Air More Uptempo" 
+                desc="Nike" 
+                price="8495"/>
                 <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
+                proimage="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c04b0d59-7f2b-4fbd-a0b2-a6f7df116cd8/NIKE+AIR+MAX+1+ESS+PRM.png" 
+                title="Nike Air Max 1 Essential Premium" 
+                desc="Nike" 
+                price="13995"/>
                 <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
-                <ProductCard 
-                proimage="https://crepdogcrew.com/cdn/shop/files/1_f1157f4c-7cee-4afb-b73d-9864bf16cf4b.png?v=1737709498&width=1000" 
-                title=" Nike Air Jordan 1 - OG bred" 
-                desc="Nike's most prestegious" 
-                price="100"/>
+                proimage="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/37684c00-5ac6-4010-b7ee-f3e8292ce022/PHANTOM+LUNA+II+ACADEMY+TF.png" 
+                title="Nike Phantom Luna 2 Academy" 
+                desc="Nike" 
+                price="8995"/>
+            </div>
+            <div>
+                <h1 className="bg-transparent">More from Nike coming soon.</h1>
             </div>
         </>
     );
